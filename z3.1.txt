@@ -1,0 +1,14 @@
+1.Czym różni się operator = od operatora ==? 
+pierwszy do przypisania drugi do porównania 
+
+2.Jaki wynik zwróci wyrażenie 17 % 5 i co oznacza operator %? 
+2 %- to modulo jest wynikiem reszty z dzielenia
+
+3.Kiedy cały warunek połączony operatorem && jest prawdziwy, a kiedy warunek połączony operatorem ||? 
+&& - gdy 2 wymogi sa prawdziwe a ||- gdy jeden z warunków spelnia wymog 
+
+4.Do czego służy słowo break w instrukcji switch i co się stanie, jeśli je pominiemy? 
+do zakończenia instrukcji, a jeśli pominiemy to program przejdzie do następnej instrukcji nawet jeśli nie spelnia warunku 
+
+5.Jakiego typu wartość zwracają operatory porównania? 
+true albo false 
