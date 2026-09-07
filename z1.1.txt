@@ -1,0 +1,16 @@
+1.Czym jest metoda Main i jaką rolę pełni w programie? 
+główny punkt startowy programu, w którym się on wykonuje.
+
+2.Jaka jest różnica między metodami Console.WriteLine i Console.Write? 
+w metodzie Writeline po wypisaniu tekstu kursor konczy się w następnej linijce.
+a w console.Write w tej samej co tekst.
+
+3.Co zwraca metoda Console.ReadLine i w jakiej postaci są to dane? 
+to co wpisaliśmy i w postaci jakiej zadeklarowaliśmy.
+
+4.Czym jest kompilacja i dlaczego jest potrzebna? 
+jest to przetłumaczenie na jezyk komputerowy musi się wykonać żeby program się wykonal.
+
+
+5.Jakim znakiem kończymy każdą instrukcję w języku C#? 
+srednik ;
