@@ -1,0 +1,18 @@
+1.Czym jest iteracja i czym jest pętla nieskończona? 
+Pętla nieskończona zazwyczaj jest błędem i powoduje, że program przestaje reagować.
+
+2.Jaka jest podstawowa różnica między pętlą while a pętlą do-while? 
+Pętla while sprawdza warunek na początku
+Pętla do-while sprawdza warunek na końcu
+
+3.Z jakich trzech części składa się nagłówek pętli for? 
+nagłówek zawiera inicjalizację, warunek i modyfikację licznika. 
+
+4.Czym różni się działanie instrukcji break od instrukcji continue? 
+Instrukcja break przerywa całą pętlę, a continue pomija tylko bieżącą iterację. 
+
+5.Do czego najlepiej nadaje się pętla foreach? 
+Pętla foreach jest czytelniejsza i bezpieczniejsza niż for, 
+gdy chcemy po prostu odwiedzić każdy element zbioru. 
+Nie musimy pamiętać o liczniku ani o zakresie, 
+dzięki czemu unikamy błędów związanych z przekroczeniem granic zbioru.
