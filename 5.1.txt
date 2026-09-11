@@ -1,0 +1,19 @@
+1.Jakiego typu wartość zwraca metoda Console.ReadLine i dlaczego często wymaga konwersji? 
+ Console.ReadLine pobiera tekst od użytkownika i zawsze zwraca łańcuch znaków. 
+
+2.Czym różni się instrukcja if/else if od konstrukcji switch i kiedy wygodniej zastosować switch? 
+Konstrukcję switch stosujemy dla wartości wyliczalnych, takich jak numery menu czy kody opcji. 
+odstawową konstrukcją jest if, którą możemy rozszerzyć o else oraz else if. 
+Dzięki nim program podejmuje decyzje zależnie od danych. 
+
+3.Do czego służy operator % i jak za jego pomocą sprawdzić, czy liczba jest parzysta? 
+reszta z dzielenia
+ if (i % 2 == 0) 
+
+4.Dlaczego w mini–projekcie „Zgadnij liczbę" wybraliśmy pętlę do-while, a nie pętlę while? 
+ ponieważ gracz musi podać przynajmniej jedną liczbę, a warunek zakończenia, 
+czyli trafienie liczby sekretnej, sprawdzamy dopiero po próbie.
+
+5.Czym różni się działanie instrukcji break od instrukcji continue? 
+nstrukcja break natychmiast przerywa całą pętlę, 
+natomiast continue pomija pozostałą część bieżącej iteracji i przechodzi do następnej.
