@@ -1,0 +1,16 @@
+1.Jakimi dwoma indeksami wskazujemy pojedynczy element tablicy dwuwymiarowej i co oznacza każdy z nich?
+ numer wiersza i numer kolumny.
+
+2.Czym różni się macierz.Length od macierz.GetLength(1) dla tablicy o rozmiarze 5 na 6? 
+ Length zwraca łączną liczbę wszystkich komórek.
+Aby poznać liczbę wierszy lub kolumn osobno, 
+korzystamy z metody GetLength argument 1 zwraca liczbe kolumn.
+
+3.Co przechowuje pojedynczy wiersz w strukturze n×6 stosowanej w arkuszach INF.04? 
+przechowuje zestawy po sześć liczb; każdy wiersz to jeden zestaw. 
+
+4.Wymień dwie sytuacje, w których lista List<T> jest wygodniejsza od tablicy. 
+List<T>. Tablica ma jedną poważną niedogodność: jej rozmiar jest stały. Gdy nie wiemy z góry, ile elementów się pojawi, albo gdy chcemy je dodawać i usuwać w trakcie działania programu, lepiej sprawdza się lista, która rośnie i kurczy się według potrzeb. 
+
+5.Jakiej właściwości używamy do odczytania liczby elementów listy i czym różni się ona od właściwości tablicy? 
+Count natomiast w przypadku tablicy używamy właściwości Length.
