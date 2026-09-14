@@ -1,0 +1,17 @@
+1.Dlaczego mówimy o liczbach pseudolosowych, a nie o liczbach prawdziwie losowych? 
+Komputer nie potrafi wytworzyć liczb prawdziwie losowych, ponieważ działa według ściśle określonych reguł. Zamiast tego generuje liczby pseudolosowe
+
+2.Jaki zakres wartości zwraca wywołanie generator.Next(1, 50) i dlaczego nie obejmuje on liczby 50? 
+zwraca liczbę od 1 do 49
+Zasada „górna granica wyłączna" jest źródłem częstych pomyłek. 
+Aby wylosować liczbę z zakresu od 1 do 49, jaki obowiązuje w loterii liczbowej, 
+jako górny argument podajemy 50.
+
+3.Dlaczego obiekt klasy Random warto utworzyć tylko raz, a nie w każdej iteracji pętli? 
+Tworzenie nowego generatora w pętli może prowadzić do powtarzających się wyników
+
+4.Na czym polega różnica między losowaniem z powtórzeniami a losowaniem bez powtórzeń na przykładzie loterii? 
+bez powtorzen wyrzuca wylosowana liczba z "worka" a z powtórzeniami nie.
+
+5.Do czego służy tablica znaczników typu bool przy losowaniu bez powtórzeń? 
+przy losowaniu bez powtórzeń służy do kontrolowania, które elementy zostały już wylosowane.
