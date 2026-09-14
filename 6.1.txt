@@ -1,0 +1,14 @@
+1.Jaki indeks ma pierwszy, a jaki ostatni element tablicy o nazwie dane zawierającej 8 elementów? 
+pierwszy ma indeks 0 a ostatni 7
+
+2.Czym różni się deklaracja int[] t = new int[5]; od int[] t = { 1, 2, 3, 4, 5 };? 
+w new int[5] maks rozmiar 5 a w drugim od razu wpisujemy
+
+3.Dlaczego w pętli przeglądającej tablicę stosujemy warunek i < t.Length, a nie i <= t.Length? 
+tablice są indeksowane od zera, co oznacza, że ostatni element ma indeks o jeden mniejszy niż długość tablicy.
+
+4.Do czego służy właściwość Length i jakiego typu wartość zwraca? 
+Rozmiar tablicy ustalamy przy tworzeniu słowem new, a odczytujemy właściwością Length zwraca int
+
+5.Dlaczego przy wyznaczaniu maksimum wartości początkowej ustawiamy na pierwszy element tablicy, a nie na zero? 
+bo otrzymamy ujemny wynik
